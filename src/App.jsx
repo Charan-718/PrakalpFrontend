@@ -106,11 +106,11 @@ function Shell() {
 
         {/* Floating card stack — scroll-driven unstack into a row */}
         <div className="hero-card-stack">
-          <motion.div className="hero-card" style={{ x: x1, rotate: r1, y: yPos }}><img src="/red-agent.png" alt="Agent Logic 1" /></motion.div>
-          <motion.div className="hero-card" style={{ x: x2, rotate: r2, y: yPos }}><img src="/blue-agent.png" alt="Agent Logic 2" /></motion.div>
-          <motion.div className="hero-card" style={{ x: x3, rotate: r3, y: yPos }}><img src="/violet-agent.png" alt="Agent Logic 3" /></motion.div>
-          <motion.div className="hero-card" style={{ x: x4, rotate: r4, y: yPos }}><img src="/gold-agent.png" alt="Agent Logic 4" /></motion.div>
-          <motion.div className="hero-card" style={{ x: x5, rotate: r5, y: yPos }}><img src="/green-agent.png" alt="Agent Logic 5" /></motion.div>
+          <motion.div className="hero-card" style={{ x: x1, rotate: r1, y: yPos }}><img src={`${import.meta.env.BASE_URL}red-agent.png`} alt="Agent Logic 1" /></motion.div>
+          <motion.div className="hero-card" style={{ x: x2, rotate: r2, y: yPos }}><img src={`${import.meta.env.BASE_URL}blue-agent.png`} alt="Agent Logic 2" /></motion.div>
+          <motion.div className="hero-card" style={{ x: x3, rotate: r3, y: yPos }}><img src={`${import.meta.env.BASE_URL}violet-agent.png`} alt="Agent Logic 3" /></motion.div>
+          <motion.div className="hero-card" style={{ x: x4, rotate: r4, y: yPos }}><img src={`${import.meta.env.BASE_URL}gold-agent.png`} alt="Agent Logic 4" /></motion.div>
+          <motion.div className="hero-card" style={{ x: x5, rotate: r5, y: yPos }}><img src={`${import.meta.env.BASE_URL}green-agent.png`} alt="Agent Logic 5" /></motion.div>
         </div>
 
         <div className="hero-content">
